@@ -21,9 +21,7 @@
             </div>
             <div>
                 <label>Contents:</label>
-                <textarea name="contents">
-                    ${note.contents}
-                </textarea>
+                <textarea name="contents" rows="6">${note.contents}</textarea>
             </div>
             <div>
                 <input type="submit" name="Save">
